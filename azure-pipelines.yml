@@ -1,8 +1,4 @@
 # Maven
-- task: Bash@3
-  inputs:
-    targetType: 'inline'
-    script: 'curl -D- -u "username:APIToken" -X POST --data ''{"transition":{"id":"transitionid"}}'' -H "Content-Type: application/json"  https://[accouint].atlassian.net/rest/api/2/issue/[issue-no]/transitions?transitionId?expand=transitions.fields'
 # Build your Java project and run tests with Apache Maven.
 # Add steps that analyze code, save build artifacts, deploy, and more:
 # https://docs.microsoft.com/azure/devops/pipelines/languages/java
